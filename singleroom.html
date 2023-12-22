@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
 
-    <title>Hotel Master &#8211; Room Reservation WordPress Theme</title>
+    <title>Mysa Homes</title>
 
     <link rel='stylesheet' href='plugins\gdlr-hostel\gdlr-hotel.css' type='text/css' media='all'>
     <link rel='stylesheet' href='css\style.css' type='text/css' media='all'>
@@ -493,91 +493,51 @@
                                             <div class="gdlr-reservation-bar-summary-form" id="gdlr-reservation-bar-summary-form"></div>
                                             <div class="gdlr-reservation-bar-room-form" id="gdlr-reservation-bar-room-form"></div>
                                             <div class="gdlr-reservation-bar-date-form" id="gdlr-reservation-bar-date-form">
+                                                <div class="gdlr-reservation-field gdlr-resv-datepicker"><span class="gdlr-reservation-field-title">Name:</span>
+                                                    <div class="">
+                                                        <input type="text">
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="clear"></div>
+                                                <div class="gdlr-reservation-field gdlr-resv-datepicker"><span class="gdlr-reservation-field-title">Email:</span>
+                                                    <div class="">
+                                                        <input type="email">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <div class="gdlr-reservation-field gdlr-resv-datepicker"><span class="gdlr-reservation-field-title">Mobile:</span>
+                                                    <div class="">
+                                                        <input type="text">
+                                                        
+                                                    </div>
+                                                </div>
                                                 <div class="gdlr-reservation-field gdlr-resv-datepicker"><span class="gdlr-reservation-field-title">Check In</span>
                                                     <div class="gdlr-datepicker-wrapper">
                                                         <input type="text" id="gdlr-check-in" class="gdlr-datepicker" autocomplete="off" data-dfm="d M yy" data-block="[&quot;2018-02-14&quot;,&quot;2018-02-15&quot;]" value="2018-05-03">
                                                         <input type="hidden" class="gdlr-datepicker-alt" name="gdlr-check-in" autocomplete="off" value="2018-05-03">
                                                     </div>
                                                 </div>
-                                                <!-- <div class="gdlr-reservation-field gdlr-resv-combobox "><span class="gdlr-reservation-field-title">Night</span>
-                                                    <div class="gdlr-combobox-wrapper">
-                                                        <select name="gdlr-night" id="gdlr-night">
-                                                            <option value="1" selected="">1</option>
-                                                            <option value="2">2</option>
-                                                            <option value="3">3</option>
-                                                            <option value="4">4</option>
-                                                            <option value="5">5</option>
-                                                            <option value="6">6</option>
-                                                            <option value="7">7</option>
-                                                            <option value="8">8</option>
-                                                            <option value="9">9</option>
-                                                        </select>
-                                                    </div>
-                                                </div> -->
-                                                <div class="clear"></div>
+                                                
+                                                
                                                 <div class="gdlr-reservation-field gdlr-resv-datepicker"><span class="gdlr-reservation-field-title">Check Out</span>
                                                     <div class="gdlr-datepicker-wrapper">
                                                         <input type="text" id="gdlr-check-out" class="gdlr-datepicker" autocomplete="off" data-min-night="1" data-dfm="d M yy" data-block="[&quot;2018-02-14&quot;,&quot;2018-02-15&quot;]" value="2018-05-04">
                                                         <input type="hidden" class="gdlr-datepicker-alt" name="gdlr-check-out" autocomplete="off" value="2018-05-04">
                                                     </div>
                                                 </div>
+                                                
                                                 <div class="clear"></div>
-                                                <div class="gdlr-reservation-field gdlr-resv-combobox gdlr-reservation-bar-room-number"><span class="gdlr-reservation-field-title">Rooms</span>
-                                                    <div class="gdlr-combobox-wrapper">
-                                                        <select name="gdlr-room-number" id="gdlr-room-number">
-                                                            <option value="1" selected="">1</option>
-                                                            <option value="2">2</option>
-                                                            <option value="3">3</option>
-                                                            <option value="4">4</option>
-                                                            <option value="5">5</option>
-                                                            <option value="6">6</option>
-                                                            <option value="7">7</option>
-                                                            <option value="8">8</option>
-                                                            <option value="9">9</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                                
                                                 <div class="clear"></div>
                                                 <div class="gdlr-reservation-people-amount-wrapper" id="gdlr-reservation-people-amount-wrapper">
-                                                    <div class="gdlr-reservation-people-amount">
-                                                        <div class="gdlr-reservation-people-title">Room <span>1</span></div>
-                                                        <div class="gdlr-reservation-field gdlr-resv-combobox "><span class="gdlr-reservation-field-title">Adults</span>
-                                                            <div class="gdlr-combobox-wrapper">
-                                                                <select name="gdlr-adult-number[]">
-                                                                    <option value="1">1</option>
-                                                                    <option value="2" selected="">2</option>
-                                                                    <option value="3">3</option>
-                                                                    <option value="4">4</option>
-                                                                    <option value="5">5</option>
-                                                                    <option value="6">6</option>
-                                                                    <option value="7">7</option>
-                                                                    <option value="8">8</option>
-                                                                    <option value="9">9</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="gdlr-reservation-field gdlr-resv-combobox "><span class="gdlr-reservation-field-title">Children</span>
-                                                            <div class="gdlr-combobox-wrapper">
-                                                                <select name="gdlr-children-number[]">
-                                                                    <option value="0">0</option>
-                                                                    <option value="1">1</option>
-                                                                    <option value="2">2</option>
-                                                                    <option value="3">3</option>
-                                                                    <option value="4">4</option>
-                                                                    <option value="5">5</option>
-                                                                    <option value="6">6</option>
-                                                                    <option value="7">7</option>
-                                                                    <option value="8">8</option>
-                                                                    <option value="9">9</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="clear"></div>
-                                                    </div>
+                                                    
                                                 </div>
                                                 <div class="clear"></div>
                                                 <input type="hidden" name="hotel_data" value="1">
-                                                <input type="submit" class="gdlr-reservation-bar-button gdlr-button with-border" value="Check Availability">
+                                                <input type="submit" class="gdlr-reservation-bar-button gdlr-button with-border" value="Submit">
                                                 <div class="clear"></div>
                                             </div>
                                             <div class="gdlr-reservation-bar-service-form" id="gdlr-reservation-bar-service-form"></div>
